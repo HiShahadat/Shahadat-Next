@@ -61,19 +61,6 @@ const Akriti = (props) => {
                     className="akriti-component01"
                   ></IWantCta>
                 </a>
-                <a
-                  href="https://www.producthunt.com/posts/akriti-100-abstract-vector-shapes"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="akriti-link2"
-                >
-                  <img
-                    alt="Product Hunt review badge with Product Hunt logo"
-                    src="/badges/product-hunt-review-badge.svg"
-                    loading="lazy"
-                    className="akriti-pasted-image"
-                  />
-                </a>
               </div>
             </div>
             <div className="akriti-container11">
@@ -257,7 +244,7 @@ const Akriti = (props) => {
               <span>100+ Stunning Shapes</span>
               <br></br>
             </p>
-            <a href="#yes-i-want-this" className="akriti-link3">
+            <a href="#yes-i-want-this" className="akriti-link2">
               <IWantCta
                 rootClassName="i-want-cta-root-class-name1"
                 className="akriti-component32"
@@ -447,7 +434,7 @@ const Akriti = (props) => {
               </div>
             </div>
           </div>
-          <a href="#yes-i-want-this" className="akriti-link4">
+          <a href="#yes-i-want-this" className="akriti-link3">
             <IWantCta
               rootClassName="i-want-cta-root-class-name2"
               className="akriti-component33"
@@ -512,7 +499,7 @@ const Akriti = (props) => {
                 href="https://www.figma.com/community/file/1301457374713038287"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="akriti-link5 p2 button-secondary-cta"
+                className="akriti-link4 p2 button-secondary-cta"
               >
                 Download Free
               </a>
@@ -588,7 +575,7 @@ const Akriti = (props) => {
                 href="https://shahadat.lemonsqueezy.com/checkout/buy/0ac1cb71-b511-4109-ab68-92b9fad469e5?desc=0&amp;discount=0&amp;dark=1"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="akriti-link6"
+                className="akriti-link5"
               >
                 <IWantCta
                   rootClassName="i-want-cta-root-class-name3"
@@ -634,7 +621,7 @@ const Akriti = (props) => {
               </div>
               <a
                 href="mailto:shout@shahadat.pro?subject=Let's work together, Shahadat!"
-                className="akriti-link7 p2 button-secondary-cta"
+                className="akriti-link6 p2 button-secondary-cta"
               >
                 Let&apos;s Work
               </a>
@@ -715,7 +702,7 @@ const Akriti = (props) => {
                 <br></br>
               </h2>
             </div>
-            <a href="#yes-i-want-this" className="akriti-link8">
+            <a href="#yes-i-want-this" className="akriti-link7">
               <IWantCta
                 rootClassName="i-want-cta-root-class-name4"
                 className="akriti-component44"
@@ -861,14 +848,6 @@ const Akriti = (props) => {
             display: contents;
           }
           .akriti-component01 {
-            text-decoration: none;
-          }
-          .akriti-link2 {
-            display: contents;
-          }
-          .akriti-pasted-image {
-            width: auto;
-            height: auto;
             text-decoration: none;
           }
           .akriti-container11 {
@@ -1018,7 +997,7 @@ const Akriti = (props) => {
             color: var(--dl-color-ui-400);
             text-align: center;
           }
-          .akriti-link3 {
+          .akriti-link2 {
             display: contents;
           }
           .akriti-component32 {
@@ -1345,7 +1324,7 @@ const Akriti = (props) => {
           .akriti-text054 {
             color: var(--dl-color-brand-500);
           }
-          .akriti-link4 {
+          .akriti-link3 {
             display: contents;
           }
           .akriti-component33 {
@@ -1492,7 +1471,7 @@ const Akriti = (props) => {
             width: 100%;
             text-align: left;
           }
-          .akriti-link5 {
+          .akriti-link4 {
             width: 100%;
             text-decoration: none;
           }
@@ -1673,7 +1652,7 @@ const Akriti = (props) => {
             width: 100%;
             text-align: left;
           }
-          .akriti-link6 {
+          .akriti-link5 {
             display: contents;
           }
           .akriti-component34 {
@@ -1776,7 +1755,7 @@ const Akriti = (props) => {
             width: 100%;
             text-align: left;
           }
-          .akriti-link7 {
+          .akriti-link6 {
             width: 100%;
             text-decoration: none;
           }
@@ -1864,7 +1843,7 @@ const Akriti = (props) => {
             text-align: center;
             text-shadow: 0px 0px 250px #1df59f;
           }
-          .akriti-link8 {
+          .akriti-link7 {
             display: contents;
           }
           .akriti-component44 {
@@ -1916,9 +1895,6 @@ const Akriti = (props) => {
               font-size: 48px;
               line-height: 120%;
               letter-spacing: -2px;
-            }
-            .akriti-pasted-image {
-              display: none;
             }
             .akriti-container12 {
               padding-top: var(--dl-space-space-12);
