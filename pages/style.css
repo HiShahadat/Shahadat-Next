@@ -142,8 +142,9 @@
   background-color: var(--dl-color-brand-500);
 }
 .button-primary-cta:hover {
+  color: var(--dl-color-ui-0);
   cursor: pointer;
-  background-color: var(--dl-color-brand-700);
+  background-color: var(--dl-color-brand-900);
 }
 .button-secondary-cta {
   gap: 0.75rem;

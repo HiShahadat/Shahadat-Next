@@ -7,11 +7,11 @@ const ProductCard = (props) => {
     <>
       <div className="product-card-container">
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.imageAlt}
+          src={props.imageSrc}
           className="product-card-image"
         />
-        <h4 className="product-card-text">{props.product_name}</h4>
+        <h4 className="product-card-text">{props.productName}</h4>
       </div>
       <style jsx>
         {`
@@ -54,15 +54,15 @@ const ProductCard = (props) => {
 }
 
 ProductCard.defaultProps = {
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
-  product_name: 'Product Name Goes Here',
+  imageSrc: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  imageAlt: 'image',
+  productName: 'Product Name Goes Here',
 }
 
 ProductCard.propTypes = {
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  product_name: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
+  productName: PropTypes.string,
 }
 
 export default ProductCard

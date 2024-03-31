@@ -7,8 +7,8 @@ const ShapeGrid = (props) => {
     <>
       <div className={`shape-grid-container ${props.rootClassName} `}>
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.imageAlt}
+          src={props.imageSrc}
           className="shape-grid-image"
         />
         <span className="shape-grid-text p4">{props.text}</span>
@@ -53,16 +53,16 @@ const ShapeGrid = (props) => {
 
 ShapeGrid.defaultProps = {
   rootClassName: '',
-  image_alt: 'abstract vector svg shape',
+  imageAlt: 'abstract vector svg shape',
   text: 'akriti',
-  image_src: '/akriti/pudina.svg',
+  imageSrc: '/akriti/pudina.svg',
 }
 
 ShapeGrid.propTypes = {
   rootClassName: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   text: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default ShapeGrid

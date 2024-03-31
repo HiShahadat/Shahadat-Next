@@ -26,6 +26,10 @@ class CustomDocument extends Document {
           ></style>
           <link
             rel="stylesheet"
+            href="https://unpkg.com/animate.css@4.1.1/animate.css"
+          ></link>
+          <link
+            rel="stylesheet"
             href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
           ></link>
           <noscript

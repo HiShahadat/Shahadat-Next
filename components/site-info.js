@@ -8,18 +8,18 @@ const SiteInfo = (props) => {
       <div className="site-info site-info-site-info">
         <div className="site-info-container">
           <div className="site-info-container1">
-            <h2 className="site-info-text">{props.site_name}</h2>
+            <h2 className="site-info-text">{props.siteName}</h2>
             <img
-              alt={props.arrow_new_tab}
+              alt={props.arrowNewTab}
               src="/icons/big-arrow-top-right-white.svg"
               className="site-info-pasted-image arrow-tab"
             />
           </div>
-          <span className="site-info-text1">{props.site_desc}</span>
+          <span className="site-info-text1">{props.siteDesc}</span>
         </div>
         <img
-          alt={props.pastedImage_alt}
-          src={props.site_logo}
+          alt={props.pastedImageAlt}
+          src={props.siteLogo}
           className="site-info-pasted-image1"
         />
       </div>
@@ -86,19 +86,19 @@ const SiteInfo = (props) => {
 }
 
 SiteInfo.defaultProps = {
-  site_logo: '/Logos/vackground-dashed-logo.svg',
-  arrow_new_tab: 'pastedImage',
-  site_desc: 'Lorem ipsum dolor site amet!',
-  site_name: 'Website',
-  pastedImage_alt: 'pastedImage',
+  siteLogo: '/Logos/vackground-dashed-logo.svg',
+  arrowNewTab: 'pastedImage',
+  siteDesc: 'Lorem ipsum dolor site amet!',
+  siteName: 'Website',
+  pastedImageAlt: 'pastedImage',
 }
 
 SiteInfo.propTypes = {
-  site_logo: PropTypes.string,
-  arrow_new_tab: PropTypes.string,
-  site_desc: PropTypes.string,
-  site_name: PropTypes.string,
-  pastedImage_alt: PropTypes.string,
+  siteLogo: PropTypes.string,
+  arrowNewTab: PropTypes.string,
+  siteDesc: PropTypes.string,
+  siteName: PropTypes.string,
+  pastedImageAlt: PropTypes.string,
 }
 
 export default SiteInfo

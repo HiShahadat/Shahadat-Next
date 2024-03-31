@@ -11,8 +11,8 @@ const IWantCta = (props) => {
           className="i-want-cta-button p2 button-primary-cta"
         >
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            alt={props.imageAlt}
+            src={props.imageSrc}
             className="i-want-cta-image"
           />
           <p className="p2">{props.text}</p>
@@ -58,15 +58,15 @@ const IWantCta = (props) => {
 
 IWantCta.defaultProps = {
   text: 'Yes, I Want This!',
-  image_src: '/icons/arrow-right.svg',
-  image_alt: 'image',
+  imageSrc: '/icons/arrow-right.svg',
+  imageAlt: 'image',
   rootClassName: '',
 }
 
 IWantCta.propTypes = {
   text: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

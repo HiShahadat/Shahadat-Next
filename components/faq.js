@@ -14,15 +14,15 @@ const Faq = (props) => {
           <h4 className="faq-text h4d">{props.heading}</h4>
           {!showAnswer && (
             <img
-              alt={props.image_alt}
-              src={props.image_src}
+              alt={props.imageAlt}
+              src={props.imageSrc}
               className="faq-image"
             />
           )}
           {showAnswer && (
             <img
-              alt={props.image_alt1}
-              src={props.image_src1}
+              alt={props.imageAlt1}
+              src={props.imageSrc1}
               className="faq-image1"
             />
           )}
@@ -81,21 +81,21 @@ const Faq = (props) => {
 }
 
 Faq.defaultProps = {
-  image_alt1: 'image',
+  imageAlt1: 'image',
   heading: 'What Is Your Question?',
-  image_alt: 'image',
+  imageAlt: 'image',
   text: 'Write your answer here.',
-  image_src1: '/icons/arrow-up.svg',
-  image_src: '/icons/arrow-down.svg',
+  imageSrc1: '/icons/arrow-up.svg',
+  imageSrc: '/icons/arrow-down.svg',
 }
 
 Faq.propTypes = {
-  image_alt1: PropTypes.string,
+  imageAlt1: PropTypes.string,
   heading: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   text: PropTypes.string,
-  image_src1: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc1: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default Faq

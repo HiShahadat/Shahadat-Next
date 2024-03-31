@@ -36,15 +36,12 @@ const Home = (props) => {
             <span>I am Shahadat Shemul! Designer. Explorer. Micropreneur.</span>
             <br></br>
           </h1>
-          <span className="home-text3 p2">
+          <span className="home-text3">
             Have any ideas, UI/UX work,  or just want to be my friend?
           </span>
-          <a
-            href="mailto:shout@shahadat.pro?subject=Hey, let's collab!"
-            className="home-link1 p2 button-primary-cta"
-          >
-            shout@shahadat.pro
-          </a>
+          <button type="button" className="p2 button-primary-cta">
+            Button
+          </button>
         </div>
       </div>
       <style jsx>
@@ -125,9 +122,6 @@ const Home = (props) => {
           }
           .home-text3 {
             color: var(--dl-color-ui-400);
-          }
-          .home-link1 {
-            text-decoration: none;
           }
           @media (max-width: 479px) {
             .home-container1 {

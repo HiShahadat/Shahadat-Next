@@ -165,76 +165,76 @@ const Akriti = (props) => {
           <div className="akriti-container16">
             <ShapeGrid
               text="Kodbel"
-              image_alt="Kodbel, a vector geometric shape, looks like a flower"
-              image_src="/akriti/kodbel.svg"
+              imageAlt="Kodbel, a vector geometric shape, looks like a flower"
+              imageSrc="/akriti/kodbel.svg"
               rootClassName="shape-grid-root-class-name"
             ></ShapeGrid>
             <ShapeGrid
               text="Fuchka"
-              image_alt="Fuchka, 4 circle logo type shape"
-              image_src="/akriti/fuchka.svg"
+              imageAlt="Fuchka, 4 circle logo type shape"
+              imageSrc="/akriti/fuchka.svg"
             ></ShapeGrid>
             <ShapeGrid
               text="Jolpai"
-              image_alt="Jolpai, purple magenta colored geometric shape"
-              image_src="/akriti/jolpai.svg"
+              imageAlt="Jolpai, purple magenta colored geometric shape"
+              imageSrc="/akriti/jolpai.svg"
             ></ShapeGrid>
             <ShapeGrid
               text="Moghlai"
-              image_src="/akriti/moghlai.svg"
+              imageSrc="/akriti/moghlai.svg"
             ></ShapeGrid>
             <ShapeGrid
               text="Obohela"
-              image_src="/akriti/obohela.svg"
+              imageSrc="/akriti/obohela.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Shiyal" image_src="/akriti/shiyal.svg"></ShapeGrid>
-            <ShapeGrid text="Bangi" image_src="/akriti/bangi.svg"></ShapeGrid>
+            <ShapeGrid text="Shiyal" imageSrc="/akriti/shiyal.svg"></ShapeGrid>
+            <ShapeGrid text="Bangi" imageSrc="/akriti/bangi.svg"></ShapeGrid>
             <ShapeGrid
               text="Jambura"
-              image_src="/akriti/jambura.svg"
+              imageSrc="/akriti/jambura.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Ruti" image_src="/akriti/ruti.svg"></ShapeGrid>
+            <ShapeGrid text="Ruti" imageSrc="/akriti/ruti.svg"></ShapeGrid>
             <ShapeGrid
               text="Benaroshi"
-              image_src="/akriti/benaroshi.svg"
+              imageSrc="/akriti/benaroshi.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Murgi" image_src="/akriti/murgi.svg"></ShapeGrid>
+            <ShapeGrid text="Murgi" imageSrc="/akriti/murgi.svg"></ShapeGrid>
             <ShapeGrid
               text="Rupchada"
-              image_src="/akriti/rupchada.svg"
+              imageSrc="/akriti/rupchada.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Elachi" image_src="/akriti/elachi.svg"></ShapeGrid>
+            <ShapeGrid text="Elachi" imageSrc="/akriti/elachi.svg"></ShapeGrid>
             <ShapeGrid
               text="Batashi"
-              image_src="/akriti/batashi.svg"
+              imageSrc="/akriti/batashi.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Vorta" image_src="/akriti/vorta.svg"></ShapeGrid>
-            <ShapeGrid text="Golap" image_src="/akriti/golap.svg"></ShapeGrid>
+            <ShapeGrid text="Vorta" imageSrc="/akriti/vorta.svg"></ShapeGrid>
+            <ShapeGrid text="Golap" imageSrc="/akriti/golap.svg"></ShapeGrid>
             <ShapeGrid
               text="Chotpoti"
-              image_src="/akriti/chotpoti.svg"
+              imageSrc="/akriti/chotpoti.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Shamuk" image_src="/akriti/shamuk.svg"></ShapeGrid>
-            <ShapeGrid text="Jilapi" image_src="/akriti/jilapi.svg"></ShapeGrid>
-            <ShapeGrid text="Biye" image_src="/akriti/biye.svg"></ShapeGrid>
-            <ShapeGrid text="Biral" image_src="/akriti/biral.svg"></ShapeGrid>
-            <ShapeGrid text="Afsos" image_src="/akriti/afsos.svg"></ShapeGrid>
+            <ShapeGrid text="Shamuk" imageSrc="/akriti/shamuk.svg"></ShapeGrid>
+            <ShapeGrid text="Jilapi" imageSrc="/akriti/jilapi.svg"></ShapeGrid>
+            <ShapeGrid text="Biye" imageSrc="/akriti/biye.svg"></ShapeGrid>
+            <ShapeGrid text="Biral" imageSrc="/akriti/biral.svg"></ShapeGrid>
+            <ShapeGrid text="Afsos" imageSrc="/akriti/afsos.svg"></ShapeGrid>
             <ShapeGrid
               text="Jamdani"
-              image_src="/akriti/jamdani.svg"
+              imageSrc="/akriti/jamdani.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Morich" image_src="/akriti/morich.svg"></ShapeGrid>
-            <ShapeGrid text="Shalik" image_src="/akriti/shalik.svg"></ShapeGrid>
-            <ShapeGrid text="Badam" image_src="/akriti/badam.svg"></ShapeGrid>
-            <ShapeGrid text="Halim" image_src="/akriti/halim.svg"></ShapeGrid>
+            <ShapeGrid text="Morich" imageSrc="/akriti/morich.svg"></ShapeGrid>
+            <ShapeGrid text="Shalik" imageSrc="/akriti/shalik.svg"></ShapeGrid>
+            <ShapeGrid text="Badam" imageSrc="/akriti/badam.svg"></ShapeGrid>
+            <ShapeGrid text="Halim" imageSrc="/akriti/halim.svg"></ShapeGrid>
             <ShapeGrid
               text="Anarosh"
-              image_src="/akriti/anarosh.svg"
+              imageSrc="/akriti/anarosh.svg"
             ></ShapeGrid>
-            <ShapeGrid text="Kacchi" image_src="/akriti/kacchi.svg"></ShapeGrid>
+            <ShapeGrid text="Kacchi" imageSrc="/akriti/kacchi.svg"></ShapeGrid>
             <ShapeGrid
               text="Tuntuni"
-              image_src="/akriti/tuntuni.svg"
+              imageSrc="/akriti/tuntuni.svg"
             ></ShapeGrid>
           </div>
           <div className="akriti-container17">
@@ -713,7 +713,7 @@ const Akriti = (props) => {
         <div className="akriti-container67">
           <p className="akriti-text099 p2">
             <span>©</span>
-            <span className="p2"> 2023, Shahadat.Pro</span>
+            <span className="p2"> 2024, Shahadat.Pro</span>
           </p>
         </div>
       </div>
