@@ -35,7 +35,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="4b3077ae-384c-49c0-9dd4-331275317fd5" async></script>\n<style>\n  @keyframes blink {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.05);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n</style>\n<noscript>',
+                '</noscript><!--This is the head section-->\n<script>window.EXPERIMENT_SITE_ID="65cda1580e7485779803248f";</script>\n  <script src="https://cdn.jsdelivr.net/npm/cline-client-script/cline.min.js"></script>\n<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="4b3077ae-384c-49c0-9dd4-331275317fd5" async></script>\n<style>\n  @keyframes blink {\n  0% {\n    transform: scale(1);\n  }\n  50% {\n    transform: scale(1.05);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n</style>\n<noscript>',
             }}
           ></noscript>
         </Head>
